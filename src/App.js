@@ -66,24 +66,3 @@ function App() {
 export default App
 
 
-{/*<input onChange={onChange} type="text"/>*/
-}
-{/*<div className='row'>*/
-}
-
-{/*    /!*{poke.filter(pokemon => pokemon.name.toLowerCase().includes(find)).map(it => {*!/*/
-}
-{/*    /!*    return <div key={it.id} className='col4'>*!/*/
-}
-{/*    /!*        <img src={it.img} alt=""/>*!/*/
-}
-{/*    /!*        <div>{it.name}</div>*!/*/
-}
-{/*    /!*    </div>*!/*/
-}
-{/*    /!*})}*!/*/
-}
-{/*    */
-}
-{/*</div>*/
-}
