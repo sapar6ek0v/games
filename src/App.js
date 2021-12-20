@@ -55,7 +55,7 @@ function App() {
                                 return <button onClick={() => giveAnswer(it.id)} className='button'>{it.name}</button>
                             })
                         }
-                        <div>{message}</div>
+                        <div className='message'>{message}</div>
                     </div>
                 </div>
             </div>

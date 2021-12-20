@@ -70,6 +70,9 @@ code {
 }
 .text {
   display: block;
+  color: white;
+  text-transform: uppercase;
+  height: 20px;
   margin: 0 auto 10px;
 }
 .button {
@@ -111,4 +114,9 @@ code {
 }
 body {
   background: url("img/bg-pok.png");
+}
+.message {
+  color: white;
+  text-transform: uppercase;
+  height: 20px;
 }
