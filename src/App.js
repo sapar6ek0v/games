@@ -19,9 +19,10 @@ function App() {
     // const onChange = (e) => setFind(e.target.value.toLowerCase())
 
     const startSearchPok = () => {
-        const random = Math.floor(Math.random() * 150)
+        const random = Math.floor(Math.random() * 150) + 1
         setRithg(poke.find(it => it.id === random))
         const numbers = [random, Math.floor(Math.random() * 150) + 1, Math.floor(Math.random() * 150) + 1, Math.floor(Math.random() * 150) + 1]
+        numbers.sort(() => Math.random() - 0.5)
         setBack(numbers.map(pokemon => {
             return (
                 poke.find(it => it.id === pokemon)
@@ -32,7 +33,7 @@ function App() {
 
     const giveAnswer = (id) => {
         if (rithg.id === id) {
-            setScore(+score + 1)
+            setScore(`Score : ${score + 1}`)
             setMessage("Вы выиграли")
         } else {
             setMessage("Вы проиграли")
